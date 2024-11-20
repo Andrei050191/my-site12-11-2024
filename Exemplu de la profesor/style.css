@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Epilogue", sans-serif;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    color: red;
+}
+
+nav img{
+    height: 50px;
+}
+
+nav .links{
+    display: flex;
+    gap: 1em;
+}
+
+nav a{
+    color: #2d2d2d;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+header, section, footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 5em;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+header strong{
+    font-size: 20px;
+}
+
+header h1{
+    font-size: 68px;
+}
+
+header p{
+    font-size: 17px;
+}
+
+header button{
+    background-color: #2D2D2D;
+    color: white;
+    padding: 1.5em 4em;
+}
+
+section#clients{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section#services{
+    
+}
+
+section#services ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 2em;
+}
+
+section#services ul li{
+    text-align: center;
+}
+
+section#portfolio{
+    
+}
+
+h2{
+    text-align: center;
+}
+
+section#portfolio ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 2em;
+}
+
+section#portfolio img{
+    width: 100%;
+}
+
+section#testimonial{
+    
+}
+
+
+section#testimonial ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 2em;
+   
+}
+section#testimonial ul li{
+    background-color: #F3F3F3;
+    padding: 2em;
+}
+
+
+section#testimonial .mdi{
+    color: orange;
+}
+
+section#testimonial .details{
+    display: flex;
+}
+
+footer .content{
+    
+    display: flex;
+    gap: 3em;
+    justify-content: space-around;
+    padding: 3em;
+}
+
+footer .left-column{
+    width: 70%;
+}
+
+footer button{
+    background-color: #2D2D2D;
+    color: white;
+    padding: 1.5em 4em;
+}
+
+input{
+    background-color: #F3F3F3;
+    width: 100%;
+    padding: 1em;
+    margin: 0.5em;
+    border: none;
+}
+
+.mdi-facebook{
+    color: blue;
+}
+
+
+.mdi-twitter{
+    color: aqua;
+}
+.mdi-instagram{
+    color: pink;
+}
+.mdi-gmail{
+    color: red;
+}
