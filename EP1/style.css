@@ -1,0 +1,32 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.colums2{
+    display: flex;
+}
+.left-column{
+    width: 400px;
+}
+.left-column button{
+    width: 400px;
+    height: 40px;
+}
+.grupe-profesori-aule{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    height: 20px;
+}
+
+.grupe-profesori-aule button{
+    color: white;
+    background-color:green;
+    
+}
+.right-column{
+    align-content: flex-end;
+}
+.right-colum{
+    color: white;
+}
