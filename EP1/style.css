@@ -1,16 +1,20 @@
 body{
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
-.colums2{
+.all-columns{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .left-column{
     width: 400px;
+    align-items: center;
 }
 .left-column button{
     width: 400px;
-    height: 40px;
+   height: 40px;
 }
 .grupe-profesori-aule{
     display: flex;
@@ -22,11 +26,23 @@ body{
 .grupe-profesori-aule button{
     color: white;
     background-color:green;
-    
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+.grupe-profesori-aule button.active{
+    background: white;
+    color: black;
+}
+.grupe-profesori-aule button:hover{
+    background: white;
+    color: black;
 }
 .right-column{
-    align-content: flex-end;
+    justify-content: space-around;
 }
-.right-colum{
-    color: white;
+.container_logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
