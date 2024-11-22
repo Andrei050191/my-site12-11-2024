@@ -65,6 +65,35 @@ body{
     color: white;
 }
 .header{
-    background-color: rgb(0, 64, 128);
+    background-color: white;
+    color: white;
+}
+.tabela2{
+    color: black;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 125px 400px;
+    border: 1px solid #ddd;
+    
+}
+.tabela2-rindu1{
+    justify-content: space-between;
+    text-align: center;  
+    background-color: #25975A ;
+    color: white;
+    border: 1px solid #ddd;
+    
+}
+.tabela2-rindu2{
+    justify-content: space-between;
+    text-align: center;  
+    
+}
+.header3{
+    background-color: rgb(163, 241, 188);
+    color: white;
+}
+.header4{
+    background-color: rgb(242, 214, 248);
     color: white;
 }
