@@ -46,3 +46,25 @@ body{
     display: flex;
     justify-content: center;
 }
+.grid-table-left{
+    border-color: black;
+    display: grid;
+    background-color: white;
+    justify-content: space-between;
+   
+    color: black;
+    grid-template-columns: 105px 42px 42px 42px 42px 42px 42px 42px;
+}
+.grid-table-left div {
+    padding: 10px;
+    border: 1px solid #ddd; /* Graniță între celule */
+    text-align: center;
+    
+}
+.header1{
+    background-color: green;
+    color: white;
+}
+.header{
+    background-color: blue;
+}
