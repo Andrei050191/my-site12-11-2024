@@ -25,7 +25,7 @@ body{
 
 .grupe-profesori-aule button{
     color: white;
-    background-color:green;
+    background-color:#25975A;
     outline: none;
     border: 0;
     cursor: pointer;
@@ -51,20 +51,20 @@ body{
     display: grid;
     background-color: white;
     justify-content: space-between;
-   
     color: black;
     grid-template-columns: 105px 42px 42px 42px 42px 42px 42px 42px;
 }
 .grid-table-left div {
-    padding: 10px;
+    padding: 3px; /* Margini interne ale tabelului */
     border: 1px solid #ddd; /* Graniță între celule */
     text-align: center;
     
 }
 .header1{
-    background-color: green;
+    background-color: #25975A;
     color: white;
 }
 .header{
-    background-color: blue;
+    background-color: rgb(0, 64, 128);
+    color: white;
 }
